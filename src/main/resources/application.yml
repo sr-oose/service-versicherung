@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: versicherung
+  datasource:
+    url: jdbc:h2:mem:testdb
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false  
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+      
+logging:
+  level:
+    root: info
+    de.woock: info
+    org.hibernate.sql: debug
+    org.hibernate.type: info          

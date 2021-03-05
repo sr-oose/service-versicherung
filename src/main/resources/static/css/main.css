@@ -1,0 +1,117 @@
+@charset "ISO-8859-8";
+
+body {
+	color: black;
+	padding-left: 50px;
+	font-family: sans-serif;
+	font: 10px;
+	background: white;
+}
+
+#header {
+	position: absolute;
+	padding: 15px;
+	left: 0px;
+	top: 0px;
+	width: 1090px;
+	background-color: #069fbf;
+}
+
+.header {
+	color: white;
+	font-size: 36px;
+}
+
+.header-sub {
+	color: white;
+	text-align: left;
+	font-size: 12px;
+}
+
+.user {
+	color: white;
+	text-align: right;
+	font-size: 12px;
+}
+
+#menu {
+	position: absolute;
+	left: 0px;
+	top: 110px;
+	width: 180px;
+	padding: 5px;
+}
+
+#menu a {
+	color: #0063B0;
+}
+
+#menu a:hover {
+	color: black;
+}
+
+.liste {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#content {
+	position: absolute;
+	padding: 5px;
+	left: 200px;
+	top: 110px;
+	width: 824px;
+}
+
+#bottom {
+	background-color: #069fbf;
+	color: white;
+} 
+
+#label {
+	font-weight: 700;
+}
+
+#data {
+	font-style: italic;
+}
+
+.form {
+	border: 1px;
+	border-style: dashed;
+	border-color: silver;
+	width: 90%;
+}
+
+.form th {
+	text-align: left;
+}
+
+.form td {
+	border: 0px;
+}
+
+h2 {
+	font-size: 14px;
+	background-color: #069fbf;
+	color: black;
+}
+
+div.footer {
+	text-align: right;
+	font-size: 9pt;
+}
+
+.titelseite {
+	text-align: justify
+}
+
+.titelseite ul {
+	left-margin: 0.5cm;
+}
+
+.titelseite img {
+	float: left;
+	padding: 0.5cm;
+}
